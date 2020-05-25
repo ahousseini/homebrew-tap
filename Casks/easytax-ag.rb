@@ -1,6 +1,6 @@
 cask 'easytax-ag' do
-  version '2019,1.2'
-  sha256 'bd9d8f56bcaf7c0ac94a20dfb8914100e3365dba8d2e87e51c7463a9981ca1be'
+  version '2019,1.3'
+  sha256 '29b435d67dc04140cd427ae10f33a3267d6f71bda23f0c4b16730dbc9875af26'
 
   url "https://msg-easytax.ch/ag/#{version.before_comma}/EasyTax#{version.before_comma}AG_macos_#{version.after_comma.dots_to_underscores}_mitJRE.dmg"
   name 'EasyTax AG'
